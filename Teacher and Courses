@@ -1,0 +1,34 @@
+https://www.modelteaching.com/professional-development-courses
+
+create table Teachers(
+    ID INT,
+    FirstName VARCHAR(30),
+    LastName VARCHAR(30),
+    CourseID INT 
+    
+);
+
+
+INSERT INTO teachers (ID, FirstName, LastName, CourseID) VALUES
+(1, 'Emily', 'Wilson', 1001),
+(1, 'Emily', 'Wilson', 1004),
+(2, 'Daniel', 'Garcia', 1003),
+(2, 'Daniel', 'Garcia', 1001),
+(3, 'Sarah', 'Thompson', 1002),
+(4, 'David', 'Lee', 1002),
+(4, 'David', 'Lee', 1003),
+(4, 'David', 'Lee', 1004);
+
+
+create table Courses(
+    ID INT,
+    CourseName VARCHAR(255),
+    PD_Hrs FLOAT
+);
+
+
+INSERT INTO courses (ID, CourseName, PD_Hrs) VALUES
+(1001, 'A Guide to Webb''s DOK', 1),
+(1002, 'A Review of Boundaries, Communication, and Professionalism in the Classroom', 1),
+(1003, 'Aligning Homework to Instruction', 1),
+(1004, 'An Introduction to Logical Fallacies', 1);
